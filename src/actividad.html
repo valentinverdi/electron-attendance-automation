@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleactividad.css">
+    <title>Completar datos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="texto nombre"></div>
+        <div class="texto actividad"></div>
+        <div class="mes">
+            <label for="mes">Selecciona un mes</label>
+            <select id="mes" name="mes">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+        </div>
+        <div class="feriadosHeader">
+            <span>Feriados</span>
+            <button class="menos">-</button>
+            <button class="mas">+</button> 
+        </div>
+        <div class="feriados"></div>
+        <div class="pdfimp">
+            <div class="pdf">
+                <label for="pdf">Generar pdf</label>
+                <input type="checkbox" value="seleccionado" id="pdf">
+            </div>
+            <hr>
+            <div class="imp">
+                <label for="imp">Imprimir</label>
+                <input type="checkbox" value="seleccionado" id="imp">
+            </div>
+            <div class="advPdfImp"></div>
+        </div>
+        <div class="enviar">Confirmar</div>
+        <div class="advertencia"></div>
+    </div>
+    
+
+    <script src="actividad.js"></script>
+</body>
+</html>
